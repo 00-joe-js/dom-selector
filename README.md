@@ -36,10 +36,8 @@ Look at the root of your tree, `document.body` and figure out how you can traver
 
 ### Any hints?
 
-If you want some hints, take the string below, open DevTools in Chrome, and call the function `atob("thecopiedstring")`in your Console.
+If you want some hints, take the string below, open DevTools in Chrome, and call the function `atob("thecopiedstring")`in your Console. There might also be another way to find them.
 
-- You should notice that `document.body` has a `children` key. Think of this key as your `neighbors` in a graph or something like `left`, `right` in a binary tree. How would you traverse with those structures? What can you translate to this problem?
-
-- The first problem "treeQuantity" on the practice assessment can help you think about how you would find the CORRECT nodes in your DOM tree.
-
-- `document.body.children` is NOT an array, but you can make it an array with `Array.from(childrenList)` much like you can do with a `Set`.
+```
+"LSBZb3Ugc2hvdWxkIG5vdGljZSB0aGF0IGBkb2N1bWVudC5ib2R5YCBoYXMgYSBgY2hpbGRyZW5gIGtleS4gVGhpbmsgb2YgdGhpcyBrZXkgYXMgeW91ciBgbmVpZ2hib3JzYCBpbiBhIGdyYXBoIG9yIHNvbWV0aGluZyBsaWtlIGBsZWZ0YCwgYHJpZ2h0YCBpbiBhIGJpbmFyeSB0cmVlLiBIb3cgd291bGQgeW91IHRyYXZlcnNlIHdpdGggdGhvc2Ugc3RydWN0dXJlcz8gV2hhdCBjYW4geW91IHRyYW5zbGF0ZSB0byB0aGlzIHByb2JsZW0/Ci0gVGhlIGZpcnN0IHByb2JsZW0gInRyZWVRdWFudGl0eSIgb24gdGhlIHByYWN0aWNlIGFzc2Vzc21lbnQgY2FuIGhlbHAgeW91IHRoaW5rIGFib3V0IGhvdyB5b3Ugd291bGQgZmluZCB0aGUgQ09SUkVDVCBub2RlcyBpbiB5b3VyIERPTSB0cmVlLgotIGBkb2N1bWVudC5ib2R5LmNoaWxkcmVuYCBpcyBOT1QgYW4gYXJyYXksIGJ1dCB5b3UgY2FuIG1ha2UgaXQgYW4gYXJyYXkgd2l0aCBgQXJyYXkuZnJvbShjaGlsZHJlbkxpc3QpYCBtdWNoIGxpa2UgeW91IGNhbiBkbyB3aXRoIGEgYFNldGAu"
+```
