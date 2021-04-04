@@ -20,7 +20,7 @@ You do not have to implement every feature/functionality of `document.querySelec
 
 When you call `myDOMSelector("div")`, you want to return an array of all of the `div` elements currently on the DOM (i.e. currently available on the web page).
 
-You can achieve this as thinking of the DOM as a *tree* data structure, and *document.body* (i.e. `<body>` element) as your *root node*.
+You can achieve this by thinking of the DOM as a *tree* data structure, and **document.body** (i.e. `<body>` element) as your *root node*.
 
 ## Unit tests?
 
